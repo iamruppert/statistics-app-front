@@ -1,0 +1,163 @@
+.container {
+    display: flex;
+}
+
+.navbar {
+    width: 100%;
+    height: 70px;
+    background-color: #545eab;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar h1 {
+    color: white;
+    font-size: 25px;
+    margin-left: 20px;
+}
+
+.white_btn {
+    border: none;
+    outline: none;
+    padding: 12px 0;
+    background-color: white;
+    border-radius: 20px;
+    width: 120px;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.navbar h3 {
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.white_btn:hover {
+    background-color: #f2f2f2;
+}
+
+.white_btn2 {
+    border: none;
+    outline: none;
+    padding: 12px 0;
+    background-color: #ffffff;
+    color: #545eab;
+    border-radius: 5px;
+    width: 100%;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.white_btn2:hover {
+    background-color: #545eab;
+    color: #ffffff
+}
+
+.content {
+    margin-left: 20px;
+    flex: 1;
+    padding: 20px;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    border-color: #545eab;
+    color: #545eab;
+}
+
+.table th {
+    background-color: #545eab;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    text-align: left;
+    border-bottom: 2px solid #ccc;
+    width: 5px;
+}
+
+.table td {
+    padding: 30px;
+    border-bottom: 1px solid #ccc;
+}
+
+.table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.table tr:hover {
+    background-color: #e5e5e5;
+}
+
+.table td:first-child {
+    border-left: 2px solid #ccc;
+}
+
+.table td:last-child {
+    border-right: 2px solid #ccc;
+}
+
+
+.statsMAIN {
+    display: flex;
+}
+
+.stats1 {
+    width: 50%;
+    text-align: center;
+}
+
+.stats2 {
+    width: 50%;
+    text-align: center;
+}
+
+.statsH {
+    color: #545eab;
+    margin-bottom: 10px;
+    font-size: 55px;
+    margin-bottom: 20px;
+}
+
+.statsHLesser {
+    color: #545eab;
+    margin-bottom: 10px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.option1{
+    float: left;
+    padding: 20px;
+}
+
+.option2{
+    margin-left: 25px;
+    float: left;
+    padding: 20px;
+}
+
+.chart{
+    clear: left;
+    border-style: ridge;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.section{
+    display: flex;
+    border-radius: 20px;
+}
+
+.select {
+    padding: 20px;
+}
